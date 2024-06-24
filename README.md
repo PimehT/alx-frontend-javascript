@@ -5,7 +5,7 @@ This repository contains projects related to the ALX Software Engineering curric
 ## Table of Contents
 
 - [Projects](#projects)
-  - [0x00. ES6 Basics](#0x00-es6-basics)
+  - [0x00. ES6 Basics](#0x00-ES6_basic)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
