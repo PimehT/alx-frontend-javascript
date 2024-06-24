@@ -10,7 +10,6 @@ This repository contains projects related to the ALX Software Engineering curric
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Projects
