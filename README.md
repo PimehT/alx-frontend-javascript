@@ -6,6 +6,7 @@ This repository contains projects related to the ALX Software Engineering curric
 
 - [Projects](#projects)
   - [0x00. ES6 Basics](#0x00-ES6_basic)
+  - [0x01. ES6 Promises](#0x01-ES6_promise)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
@@ -21,6 +22,13 @@ This directory contains projects that introduce and explore the basics of ES6 (E
 - Template Literals
 - Destructuring
 - Spread and Rest Operators
+
+### 0x01. ES6 Promises
+This directory focuses on Javascript Promises, covering:
+- Creating and using Promises
+- Chaining Promises
+- Handling errors with Promises
+- Using `Promise.all` and `Promise.race`
 
 ## Getting Started
 
@@ -57,7 +65,7 @@ Ensure you have the following installed:
    ```
 2. Run the project scripts using
    ```sh
-   npm run dev <index>-main.js
+   npm run dev <int>-main.js
    ```
 
 ## Contributing
