@@ -4,28 +4,23 @@ export default class Airport {
     this._code = code;
   }
 
-  toString() {
-    return `[object ${this._code}]`;
+  get name() {
+    return this._name;
   }
 
-  [Symbol.toPrimitive](hint) {
-    const c = this._code;
-    const n = this._name;
-    if (hint === 'string') {
-      return `${this.constructor.name} [${c}] { _name: '${n}', _code: '${c}' }`;
-    }
-    return this.toString();
+  get code() {
+    return this._code;
+  }
+
+  set name(value) {
+    this._name = value;
+  }
+
+  set code(value) {
+    this._code = value;
+  }
+
+  get [Symbol.toStringTag]() {
+    return this._code;
   }
 }
-
-/*
-class Exam {
-  constructor(name) {
-    this._name = name;
-  }
-
-  greet() {
-    return `${this.constructor.toString}`;
-  }
-}
-a = new Exam('joe'); */
