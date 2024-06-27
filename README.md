@@ -7,6 +7,7 @@ This repository contains projects related to the ALX Software Engineering curric
 - [Projects](#projects)
   - [0x00. ES6 Basics](#0x00-ES6_basic)
   - [0x01. ES6 Promises](#0x01-ES6_promise)
+  - [0x02. ES6 Classes](#0x02-ES6_classes)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
@@ -29,6 +30,13 @@ This directory focuses on Javascript Promises, covering:
 - Chaining Promises
 - Handling errors with Promises
 - Using `Promise.all` and `Promise.race`
+
+### 0x02. ES6 Classes
+This directory focuses on JavaScript Class, it covers:
+- Class definition and inheritance
+- Constructors and methods
+- Static methods
+- Getters and setters
 
 ## Getting Started
 
