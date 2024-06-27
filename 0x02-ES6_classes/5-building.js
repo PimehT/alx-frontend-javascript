@@ -1,3 +1,5 @@
+const evacuationWarningMessageSymbol = Symbol('evacuationWarningMessage');
+
 export default class Building {
   constructor(sqft) {
     if (typeof (sqft) !== 'number') {
@@ -7,7 +9,7 @@ export default class Building {
 
     if (
       new.target !== Building
-      && typeof this.evacuationWarningMessage !== 'function'
+      && typeof this[evacuationWarningMessageSymbol] !== 'function'
     ) {
       throw new Error('Class extending Building must override evacuationWarningMessage');
     }
