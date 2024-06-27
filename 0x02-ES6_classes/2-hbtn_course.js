@@ -8,9 +8,9 @@ export default class HolbertonCourse {
       throw new Error('Students must be an array object');
     }
 
-    this._name = typeof (name) === 'string' ? name : new Error('Name must be a string');
-    this._length = typeof (length) === 'number' ? length : new Error('Length must be a number');
-    this._students = typeof (students) === 'object' ? students : new Error('Students must be an array object');
+    this._name = name;
+    this._length = length;
+    this._students = students;
   }
 
   get name() {
