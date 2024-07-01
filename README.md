@@ -8,6 +8,7 @@ This repository contains projects related to the ALX Software Engineering curric
   - [0x00. ES6 Basics](#0x00-ES6_basic)
   - [0x01. ES6 Promises](#0x01-ES6_promise)
   - [0x02. ES6 Classes](#0x02-ES6_classes)
+  - [0x03. ES6 Data Manipulation](#0x03-ES6_data_manipulation)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
@@ -37,6 +38,12 @@ This directory focuses on JavaScript Class, it covers:
 - Constructors and methods
 - Static methods
 - Getters and setters
+
+### 0x03. ES6 Data Manipulation
+This directory covers data manipulation in ES6, including:
+- Using `map`, `filter`, and `reduce` on arrays
+- Typed arrays
+- The Set, Map, and WeakMap data structures
 
 ## Getting Started
 
