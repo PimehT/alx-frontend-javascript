@@ -9,6 +9,7 @@ This repository contains projects related to the ALX Software Engineering curric
   - [0x01. ES6 Promises](#0x01-ES6_promise)
   - [0x02. ES6 Classes](#0x02-ES6_classes)
   - [0x03. ES6 Data Manipulation](#0x03-ES6_data_manipulation)
+   - [0x04. TypeScript](#0x04-Typescript)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
@@ -44,6 +45,14 @@ This directory covers data manipulation in ES6, including:
 - Using `map`, `filter`, and `reduce` on arrays
 - Typed arrays
 - The Set, Map, and WeakMap data structures
+
+### 0x04. TypeScript
+This directory covers the basics of TypeScript, a superset of JavaScript that adds static typing to the language. Topics include:
+- Installing TypeScript
+- Compiling TypeScript files
+- Basic types
+- Functions, Interfaces, and Classes
+- Generics and Decorator
 
 ## Getting Started
 
